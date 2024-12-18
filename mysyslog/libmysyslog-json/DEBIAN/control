@@ -1,0 +1,8 @@
+Package: libmysyslog-json
+Version: 1.0
+Section: libs
+Priority: optional
+Architecture: amd64
+Depends: libc6 (>= 2.7)
+Maintainer: Vera <pva082005@gmail.com>
+Description: Text logging driver for libmysyslog

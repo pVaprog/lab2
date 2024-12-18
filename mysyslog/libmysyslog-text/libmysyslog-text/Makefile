@@ -1,10 +1,10 @@
 CC=gcc
 CFLAGS=-fPIC -shared
-TARGET=libmysyslog_json.so
+TARGET=libmysyslog_text.so
 
 all: $(TARGET)
 
-$(TARGET): libmysyslog_json.o
+$(TARGET): libmysyslog_text.o
 	$(CC) $(CFLAGS) -o $@ $^
 
 clean:
