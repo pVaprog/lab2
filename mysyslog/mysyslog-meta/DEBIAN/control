@@ -1,0 +1,13 @@
+Source: mysyslog-meta
+Section: metapackages
+Priority: optional
+Maintainer: Vera <pva082005@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 4.5.1
+Homepage: https://github.com/pVaprog/lab2
+
+Package: mysyslog-meta
+Architecture: all
+Depends: mysyslog-daemon, mysyslog-lib
+Description: Meta package for My Syslog system
+	Installs all components of the My Syslog system, including the daemon and library.

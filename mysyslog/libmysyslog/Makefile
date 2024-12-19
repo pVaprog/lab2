@@ -22,3 +22,9 @@ $(TARGET_DYNAMIC): $(OBJECTS)
 
 clean:
 	rm -f $(OBJECTS) $(TARGET_STATIC) $(TARGET_DYNAMIC)
+
+deb: 
+	mkdir -p ../debian/mysyslog-lib
+	cp -r debian/* ../debian/mysyslog-lib/
+	dpkg-deb --build ../debian/mysyslog-lib
+	rm -rf ../debian/mysyslog-lib

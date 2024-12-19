@@ -1,0 +1,13 @@
+Source: mysyslog-daemon
+Section: utils
+Priority: optional
+Maintainer: Vera <pva082005@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 4.5.1
+Homepage: https://github.com/pVaprog/lab2
+
+Package: mysyslog-daemon
+Architecture: any
+Depends: mysyslog-lib
+Description: My Syslog Daemon
+	A simple syslog daemon for logging messages.
